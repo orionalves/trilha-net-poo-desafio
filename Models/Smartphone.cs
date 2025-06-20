@@ -4,14 +4,14 @@ namespace DesafioPOO.Models
     {
         public string Numero { get; set; }
         protected string Modelo;
-        protected string IMAI;
+        protected string IMEI;
         protected int Memoria;
 
-        public Smartphone(string numero, string modelo, string imai, int memoria)
+        public Smartphone(string numero, string modelo, string imei, int memoria)
         {
             Numero = numero;
             Modelo = modelo;
-            IMAI = imai;
+            IMEI = imei;
             Memoria = memoria;
         }
 
